@@ -1,0 +1,261 @@
+Rito:
+- _Warp::Shrine::KehNamut:
+    line-color: red
+- Buffered SCW:
+    notes: Boko Arm + 4 Wood
+    var-change:
+      Weapons: -1
+      FireArrow: -1
+      Wood: -4
+- _Snap::Quest<Small Guardian>
+- _Shrine::EtsuKorima
+- .dir(E>>) Turn:
+    coord: [-957,2318.9593935768116]
+- _Equipment::Weapon<Hammer>:
+    comment: .v(Weapons)/8 weapons
+- Buffered SCW:
+    coord: [-922,2316.860551600368]
+    notes: Shield Surf + Tree Launch
+- _Shrine::RuvoKorbah
+- +.dir(<E) Turn:
+    var-change:
+      Wood: 1
+    notes: 1 Wood
+    coord: [-448,1989.731007206392]
+- Buffered SCW:
+    notes: Shield surf + WB
+- _Shrine::RohtaChigah
+
+- .!!(SAVE BEFORE WB):
+    notes: Since mag is already activated, game won't save you there, so you will be down 1 heart if scw fails
+- .dir(<N):
+    coord: [-672,1516.5436234193867]
+- Buffered SCW:
+    notes: Boko Arm + 8 campfires. .v(Wood) left. .v(Weapons)/8 weapons
+    var-change:
+      Weapons: -1
+      FireArrow: -1
+      Wood: -4
+- _Shrine::YowakaIta:
+    notes: Camera clip
+    
+- Bomb tree + boar:
+    notes: 1 Wood. get raw meat for scw
+    var-change:
+      Wood: 1
+- .dir(E) Backflip super
+- _Shrine::BoshKala
+- .dir(N>) TS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    coord: [950,500.1411246295402]
+- .dir(<N) Turn
+- kaya wan forest:
+    notes: 5 Wood, 6 Raddish, 7 Endura shroom. Check .v(Wood) wood
+    movements:
+    - to: [906.07, 135.42, 337.05]
+    - to: [900.02, 134.07, 331.65]
+    - to: [899.73, 133.23, 324.84]
+    - to: [891.74, 132.13, 294.51]
+    - to: [882.92, 131.63, 297.73]
+    - to: [844.13, 131.63, 292.32]
+    - to: [847.89, 131.66, 277.10]
+    - to: [847.72, 131.63, 276.06]
+    - to: [863.29, 131.97, 272.13]
+    - to: [865.83, 132.12, 267.64]
+    - to: [864.18, 132.03, 267.46]
+    - to: [832.38, 131.76, 234.15]
+    - to: [830.34, 131.95, 222.57]
+    var-change:
+      Wood: 5
+- _Shrine::KayaWan
+
+- _Cook<3 Speed + H/E>
+- BLSS to shrine:
+    coord: [917,150.2713926522165]
+- _Shrine::DakaTuss
+- BTB to mezzalo:
+    var-change:
+      IceArrow: -1
+    notes: .v(IceArrow) Ice Arrows left
+- _Shrine::MezzaLo
+- .dir(<N) Turn
+- 1 Raddish
+- _Shrine::SohKofi
+
+- Blow up trees:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
+- BLSS to shrine:
+    coord: [2189,-189.96315709896044]
+- _Shrine::ShehRata
+- .dir(<N) Turn
+- _Shrine::MirroShaz
+- .dir(S>>) Slight Turn + .dir(W):
+    coord: [956,-812.210757240352]
+- _Shrine::NamikaOzz
+- .dir(W>) Turn:
+    coord: [152,-1019.256224077365]
+- Snap Stalker:
+    notes: DON'T SNAP SKYWATCHER. It's faster to snap the ZD one bc no zoom in
+- .dir(W>) Turn
+- _Chest<Dinraal Scale>:
+    coord: [-194,-1220.050312348731]
+- .dir(<W)
+- _Chest<5 Bomb Arrows>:
+    coord: [-295.5,-1158.0257504147048]
+- Freeze 3 lizals:
+    var-change:
+      IceArrow: -3
+- _Equipment::Weapon<Flameblade>:
+    coord: [-267,-1133.0158464090491]
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+- Ancient Arrow:
+    coord: [-216.22, 114.32, -1180.13]
+- _Equipment::Bow<Lizal Bow>:
+    coord: [-236.5,-1187.4031388246876]
+    notes: Shock with thunderblade
+- _Shrine::SaasKosah:
+    notes: Check 1 empty shield slot
+
+- +Run up:
+    coord: [-161.5,-1079.8605516003681]
+- _Equipment::Weapon<Boomerang>:
+    var-change:
+      Weapons: 1
+    notes: .v(Weapons) weapons
+- +WB to 3AA:
+    coord: [-62.64, 213.94, -1044.27]
+- +.dir(<<N)
+- _Chest<Naydra Scale>:
+    coord: [-176,-1164.4475087700248]
+- +.dir(N) super + .dir(N>) Turn:
+    coord: [-34,-1636.1101325428908]
+- Keep rusty shield
+- _Shrine::KuhnSidajj
+
+- +.dir(S>) Turn escape:
+    coord: [-40,-1582.1957031517559]
+- +.dir(W) TS + midairs
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+
+- _Tod::Noon:
+    var-change:
+      Wood: -1
+- BLSS to shrine:
+    movements:
+    - to: [-2163,-1649.8997714627644]
+    - to: [-3107,-1295.75953074268]
+    - to: [-3352,-1297.7785464335393]
+    - to: [-3604,-1544.8763980094172]
+- _Shrine::BareedaNaag:
+    var-change:
+      FireArrow: -1
+    notes: .v(FireArrow) Fire Arrows Left
+- Shield Surf SCW:
+    var-change:
+      Wood: 1
+    notes: 1 Wood. .v(Wood) wood left.
+- _Shrine::VooLota
+- .dir(E) super
+- _Shrine::AkhVaquot
+- 6 Hearts:
+    coord: [-3595,-1809.2533673619228]
+- .dir(<N) TS
+- _Shrine::ShaWarvo
+- 4 Wood SCW:
+    var-change:
+      Wood: -4
+    notes: .v(Wood) wood left.
+- _Shrine::NoeRajee
+- Updraft up
+- 10 Arrows:
+    var-change:
+      Arrow: 10
+    notes: .v(Arrow) arrows left
+    coord: [-3794,-2318.8460688548603]
+- .dir(<N):
+    coord: [-3984,-2549.3553557229257]
+- _Shrine::MakaRah
+
+- +Run out:
+    coord: [-3984,-2549.3553557229257]
+- +.dir(E) HIGH:
+    coord: [-3859,-2534.3494133195322]
+- +.dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807,-2720.4230991216104]
+    - to: [-3655,-2710.419137519348]
+- +.dir(N) + .dir(N) midair:
+    coord: [-3575,-3031.5463049519667]
+- _Shrine::MozoShenno
+
+- +.dir(E) HIGH:
+    coord: [-3437,-3053.5550204769434]
+- +.dir(N) + .dir(E) midairs:
+    coord: [-3408,-3217.619990754045]
+- _Shrine::ShadaNaw
+
+- BLSS
+- _Shrine::HiaMiu
+- .dir(E)
+- Clip into mountain
+- _Shrine::ToQuomo:
+    notes: Get claymore. .v(Weapons)/8 Weapons
+    var-change:
+      Weapons: 1
+
+- _Warp::Shrine::ShadaNaw:
+    line-color: orange
+- BLSS
+- _Shrine::LannoKooh
+- .dir(NE):
+    notes: Cryo block out or you will have to eat. Use hammer to hit snowball (stasis 3 hits + stasis 3 hits)
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388,-2440.6529636418254]
+- _Shrine::RinOyaa
+- .dir(SE) + BLSS:
+    coord: [-1434,-2250.5776931988426]
+- _Shrine::RonaKachta
+
+- _Warp::Shrine::ShadaNaw:
+    line-color: yellow
+- _Shrine::GomaAsaagh:
+    notes: No claymore
+    var-change:
+      FireArrow: -1
+- Ring Chase:
+    movements:
+    - to: [-2792.10, 665.50, -2810.60]
+    - to: [-2747.40, 636.86, -2727.30]
+    - to: [-2575.10, 578.92, -2648.00]
+    - to: [-2478.80, 557.90, -2650.40]
+    - to: [-2401.80, 542.60, -2671.80]
+    - to: [-2380.60, 525.25, -2727.60]
+    - to: [-2399.80, 514.90, -2800.50]
+    - to: [-2424.80, 498.50, -2891.60]
+    - to: [-2429.21, 489.01, -2961.43]
+    - to: [-2379.90, 473.60, -3090.80]
+    - to: [-2300.00, 456.55, -3116.60]
+    - to: [-2239.00, 447.70, -3118.10]
+    - to: [-2195.09, 443.89, -3156.53]
+- _Shrine::KiahToza
+- Surf + .dir(W>>) Ordinal Turn:
+    coord: [-2245,-3151.7979582846247]
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai

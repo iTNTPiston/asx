@@ -1,0 +1,31 @@
+ZD:
+- _Warp::Shrine::SatoKoda:
+    line-color: cyan
+
+- .dir(E>) Turn
+- _Shrine::MahEliya:
+    notes: frozen meat activate .v(IceArrow) ice arrows left
+    var-change:
+      IceArrow: -1
+- 1 Wood 2 Shock:
+    var-change:
+      Wood: 1
+    notes: need 6 wood here. Check has .v(Wood)
+- .dir(<E) TS
+- _Shrine::KenaiShakah
+- .dir(NE) to updraft + .dir(NE)
+- _Shrine::KahMael
+- _Tod::Morning:
+    var-change:
+      Wood: -1
+- .dir(SE)
+- _Shrine::KeeDafunia
+- Cryo + Shield Surf SCW
+- .dir(<E) Turn to updraft
+- BLSS:
+    notes: Remove boulder with mag
+- _Shrine::ShaiYota:
+    notes: If have more than 5 wood, can use campfire. It's very likely to rain here anyway in which case you can use a throwing spear chest
+- .dir(<E) + midairs
+- _Shrine::RuccoMaag
+

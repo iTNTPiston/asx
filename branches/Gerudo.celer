@@ -1,0 +1,29 @@
+Gerudo:
+- _Warp::Shrine::AkhVaquot:
+    line-color: orange
+- Bomb tree BLSS
+- _Shrine::KahOkeo
+- Climb + .dir(E) windbombs
+- _Shrine::TenaKosah
+- Moblin BTB:
+    var-change:
+      Arrow: -1
+      IceArrow: -2
+    notes: .v(Arrow) arrows left. .v(IceArrow) ice arrows left
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
+- .dir(<N) Turn + .dir(W>) Turn + .dir(S>) Turn:
+    movements:
+    - to: [-3928,532.6861495118246]
+    - to: [-4320,416.64019492558236]
+- _Shrine::KemaKossasa
+- 2 .dir(S) Cardinal Turn
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S.) Turn
+- _Shrine::ThoKayu:
+    comment: Check .v(FireArrow) fire arrows left
+    var-change:
+      FireArrow: -3
+- BLSS
+- _Shrine::HawaKoth
+

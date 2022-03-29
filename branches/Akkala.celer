@@ -1,0 +1,44 @@
+Akkala:
+- _Warp::Shrine::KuhnSidajj:
+    line-color: magenta
+- Backflip to KF:
+   coord: [376,-2203.3217736927]
+- .dir(NW) midair to Oaki
+- Start quest
+- Backflip to shrine:
+    notes: 1 Wood. .v(Wood) wood left
+    var-change:
+      Wood: 2
+- _Shrine::DaagChokah
+- .dir(E>) Turn
+- _Shrine::KeoRuug
+- .dir(E) start quest
+- WB to shrine, throw sword
+- _Shrine::MaagHalan
+
+- _Warp::Shrine::DaqaKoh
+- +.dir(W>) TS
+- _Chest<Stone Smasher>:
+    comment: Inside shrine
+    hide-icon-on-map: true
+    notes: .v(Weapons)/8 weapons
+    var-change:
+      Weapons: 1
+- _Shrine::ShaeMosah
+
+- .dir(<E) Turn
+- _Shrine::ShoraHah
+- +Minecart Out
+- +Stasis + .dir(NE) out of fire
+- +.dir(E) Turn
+- Spin with Stone Smasher
+- _Shrine::KamiaOmuna
+- Shield Surf SCW
+- .dir(<E) Turn
+- _Cook<1 Speed>:
+    notes: Cook to activate cutscene
+- _Shrine::GoraeTorr
+- .dir(E) Turn
+- _Shrine::ZunaKai
+- BLSS
+- _Shrine::TuKaloh

@@ -1,0 +1,32 @@
+Bloodmoon:
+- _Warp::Shrine::KuhTakkar:
+    line-color: "#00ff00"
+- 4 Wood SCW:
+    notes: .v(Wood) left
+    var-change:
+      Wood: -4
+- WB + BLSS to shrine:
+    coord: [-3196,1032.7717201206897]
+- _Shrine::MijahRokee
+- .dir(E>) + .dir(S) + .dir(E)
+- _Shrine::MoggLatan
+- 1 Wood:
+    notes: .v(Wood) left
+    var-change:
+      Wood: 2
+- BLSS
+- _Shrine::ShaeLoya
+- .dir(<<E) TS
+- Get Orbs:
+    var-change:
+      Weapons: -1
+- _Shrine::TohYahsa
+- Shield Surf SCW
+- .dir(N) + .dir(<N) midair
+- Frozen crab activate:
+    notes: .v(IceArrow) ice arrows left
+    var-change:
+      IceArrow: -1
+- _Shrine::ShiraGomar
+- Bomb grass midair .dir(W>)
+- _Shrine::DunbaTaag

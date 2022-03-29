@@ -1,0 +1,23 @@
+Project: 
+  Name: ASX Aristos v2
+  Authors:
+    - iTNTPiston
+  Version: "2.1"
+  Description: All Shrines Extended
+  Url: "https://github.com/iTNTPiston/asx"
+
+Route:
+  - Notes:
+    - "(==) Wood: Get wood from every tree you cut + noted in the route. The route uses shield surf SCW heavily, so if you can't do that, you need to route in 80+ extra wood." 
+    - "(==) Food: 4 of 6 peppers from the beginning are routed for SCWs. 2 for backup. Don't eat peppers unless you have to"
+  - ASX Aristos 2.1:   
+    - __use__ Plateau
+    - __use__ Hateno
+    - __use__ Rito
+    - __use__ Gerudo
+    - __use__ Eldin
+    - __use__ Akkala
+    - __use__ Wasteland
+    - __use__ Bloodmoon
+    - __use__ ZD
+    - __use__ Central
