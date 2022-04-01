@@ -1,44 +1,31 @@
 Akkala:
-- _Warp::Shrine::KuhnSidajj:
-    line-color: magenta
-- Backflip to KF:
-   coord: [376,-2203.3217736927]
-- .dir(NW) midair to Oaki
-- Start quest
-- Backflip to shrine:
-    notes: 1 Wood. .v(Wood) wood left
-    var-change:
-      Wood: 2
-- _Shrine::DaagChokah
-- .dir(E>) Turn
-- _Shrine::KeoRuug
-- .dir(E) start quest
-- WB to shrine, throw sword
-- _Shrine::MaagHalan
-
-- _Warp::Shrine::DaqaKoh
-- +.dir(W>) TS
-- _Chest<Stone Smasher>:
-    comment: Inside shrine
-    hide-icon-on-map: true
-    notes: .v(Weapons)/8 weapons
-    var-change:
-      Weapons: 1
-- _Shrine::ShaeMosah
-
-- .dir(<E) Turn
-- _Shrine::ShoraHah
-- +Minecart Out
-- +Stasis + .dir(NE) out of fire
-- +.dir(E) Turn
-- Spin with Stone Smasher
-- _Shrine::KamiaOmuna
+- _Warp::Shrine::DaqaKoh:
+    line-color: red
+- .dir(<S) Turn:
+    coord: [2358,-2074.761419954809]
+- _Shrine::RinuHonika
 - Shield Surf SCW
-- .dir(<E) Turn
-- _Cook<1 Speed>:
-    notes: Cook to activate cutscene
-- _Shrine::GoraeTorr
-- .dir(E) Turn
-- _Shrine::ZunaKai
-- BLSS
-- _Shrine::TuKaloh
+- .dir(E)
+- _Shrine::KayraMah
+- Clip out:
+   coord: [1993,-2052.397348706906]
+- .dir(S>) Turn
+- _Shrine::QuaRaym
+- .dir(SE) super
+- _Shrine::TahMuhl
+- .dir(E>) + .dir(N>)
+- _Shrine::MoaKeet
+- .dir(.N) Turn
+- _Shrine::SahDahaj
+- .dir(N) + .dir(N) + .dir(<N)
+- _Shrine::ZeKasho
+- .dir(.E) TS + .dir(SE)
+- _Shrine::DahHesho
+- .dir(<<E) TS:
+    coord: [4668,-1787.1221089386818]
+- BLSS orb
+- _Shrine::RitaagZumo
+- .dir(N) + .dir(<N) midairs
+- _Shrine::KatosaAug
+- .dir(.E) Turn
+- _Shrine::TutsuwaNima

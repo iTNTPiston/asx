@@ -1,8 +1,11 @@
 Eldin:
 - _Warp::TechLab::Hateno:
-    line-color: "#00ff00"
+    line-color: yellow
 - .dir(N>) Turn + .dir(<E) (or ordinal)
 - _Shrine::TalohOah
+- Cut tree 1 wood:
+    var-change:
+      Wood: 1
 - +.dir(N) + .dir(N) midair:
     coord: [4187,1377.9397836456137]
 - +.dir(N) + .dir(E) + .dir(<E):
@@ -10,13 +13,10 @@ Eldin:
     - to: [4179,1267.8962060207286]
     - to: [4049,1275.8993753025388]
     - to: [3948,1343.9263141979218]
-- Shoot Naydra:
-    notes: So he doesn't block you after the shrine. .v(Arrow) arrows left
-    var-change:
-      Arrow: -1
 - _Shrine::JitanSami
-- .dir(E) to peak + BLSS:
+- BLSS to trident:
     coord: [3229,-602.2594849481793]
+- __use__ CheckSlots
 - _Chest<Ceremonial Trident>
 - +.dir(S) Cardinal
 - 2 Lotus
@@ -26,7 +26,7 @@ Eldin:
 - 1 Lotus
 - _Shrine::DagahKeek
 - Shield Surf SCW
-- .dir(N) + .dir(N>) + .dir(NW)
+- .dir(N) + .dir(E) + .dir(W>)
 - Amiibo Activate
 - _Shrine::SatoKoda
 
@@ -39,38 +39,33 @@ Eldin:
     var-change:
       Wood: -1
     notes: Campfire activate
-- _Shrine::SharoLun:
-    comment: 0 BLSS
-- .!!(EQUIP ARROW)
+- _Shrine::SharoLun
 - .dir(<E) TS + .dir(<N) midair:
     coord: [2134,-2172.8002436569786]
     notes: Stand close to lava so the bomb can't be blown away too much (it's up hill). Enter BT as soon as possible
 - _Shrine::DaqaKoh
-- .dir(<S) Turn:
-    coord: [2358,-2074.761419954809]
-- _Shrine::RinuHonika
-- Shield Surf SCW
-- .dir(E)
-- _Shrine::KayraMah
-- Clip out:
-   coord: [1993,-2052.397348706906]
-- .dir(S>) Turn
-- _Shrine::QuaRaym
-- .dir(SE) super
-- _Shrine::TahMuhl
-- .dir(E>) + .dir(N>)
-- _Shrine::MoaKeet
-- .dir(.N) Turn
-- _Shrine::SahDahaj
-- .dir(N) + .dir(N) + .dir(<N)
-- _Shrine::ZeKasho
-- .dir(.E) TS + .dir(SE)
-- _Shrine::DahHesho
-- .dir(<<E) TS:
-    coord: [4668,-1787.1221089386818]
-- BLSS orb
-- _Shrine::RitaagZumo
-- .dir(N) + .dir(<N) midairs
-- _Shrine::KatosaAug
-- .dir(.E) Turn
-- _Shrine::TutsuwaNima
+- +.dir(W>) TS
+- _Chest<Stone Smasher>:
+    comment: Inside shrine
+    hide-icon-on-map: true
+    notes: .v(Weapons)/8 weapons
+    var-change:
+      Weapons: 1
+- _Shrine::ShaeMosah
+
+- .dir(<E) Turn
+- _Shrine::ShoraHah
+- +BLSS to talus:
+    notes: Can get there without fairy, but need fairy to be safe
+- +Spin with Stone Smasher
+- _Shrine::KamiaOmuna
+- Shield Surf SCW:
+    notes: Optional. Do the clip if you feel more comfortable
+- .dir(<E) Turn
+- _Cook<1 Speed>:
+    notes: Cook to activate cutscene
+- _Shrine::GoraeTorr
+- .dir(E) Turn
+- _Shrine::ZunaKai
+- BLSS
+- _Shrine::TuKaloh

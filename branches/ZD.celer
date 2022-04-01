@@ -1,6 +1,6 @@
 ZD:
 - _Warp::Shrine::SatoKoda:
-    line-color: cyan
+    line-color: "#00ff00"
 
 - .dir(E>) Turn
 - _Shrine::MahEliya:
@@ -9,8 +9,8 @@ ZD:
       IceArrow: -1
 - 1 Wood 2 Shock:
     var-change:
-      Wood: 1
-    notes: need 6 wood here. Check has .v(Wood)
+      Wood: 2
+    notes: need 2 wood here.
 - .dir(<E) TS
 - _Shrine::KenaiShakah
 - .dir(NE) to updraft + .dir(NE)
@@ -25,7 +25,7 @@ ZD:
 - BLSS:
     notes: Remove boulder with mag
 - _Shrine::ShaiYota:
-    notes: If have more than 5 wood, can use campfire. It's very likely to rain here anyway in which case you can use a throwing spear chest
+    notes: If have more than 2 wood, can use campfire. It's very likely to rain here anyway in which case you can use a throwing spear chest
 - .dir(<E) + midairs
 - _Shrine::RuccoMaag
 
