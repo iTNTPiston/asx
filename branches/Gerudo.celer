@@ -30,7 +30,7 @@ Gerudo:
 - _Snap::Quest<Small Guardian>
 
 - _Warp::Shrine::ShadaNaw:
-    line-color: "#00ff00"
+    line-color: yellow
     notes: Doing this part of hebra now so it's day time for shield surf minigame
 - _Shrine::GomaAsaagh:
     notes: No claymore
@@ -62,3 +62,5 @@ Gerudo:
 - _Shrine::QazaTokki
 - .dir(S) up + BLSS
 - _Shrine::KetohWawai
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows

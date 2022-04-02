@@ -45,7 +45,7 @@ Hateno:
 
 - .dir(S) + BLSS
 - _Shrine::TotoSah
-- +.dir(<N) Turn + .dir(<N) Turn
+- +.dir(<<W) + .dir(NW)
 - +_Material<4 Violets>:
     coord: [1634,1907.2630503902146]
 - _Shrine::HaDahamar

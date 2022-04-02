@@ -49,7 +49,7 @@ Rito:
 - _Shrine::HilaRao
 - .dir(N.) Turn to fairy:
     coord: [950,500.1411246295402]
-- .dir(<N) Turn
+- .dir(N)
 - kaya wan forest:
     notes: 6 Raddish, 7 Endura shroom.
     movements:
@@ -229,20 +229,6 @@ Rito:
     var-change:
       Weapons: 1
 
-- _Warp::Shrine::ShadaNaw:
-    line-color: yellow
-- BLSS
-- _Shrine::LannoKooh
-- .dir(NE):
-    notes: Cryo block out or you will have to eat. Use hammer to hit snowball (stasis 3 hits + stasis 3 hits)
-- _Shrine::GeeHarah
-
-- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
-    coord: [-2388,-2440.6529636418254]
-- _Shrine::RinOyaa
-- .dir(SE) + BLSS:
-    coord: [-1434,-2250.5776931988426]
-- _Shrine::RonaKachta
 - __use__ CheckSlots
 - __use__ CheckWoodAndArrows
 

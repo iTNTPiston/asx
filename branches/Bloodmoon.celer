@@ -1,12 +1,6 @@
 Bloodmoon:
-- _Warp::Shrine::KeehaYoog:
-    line-color: "#00ff00"
-- +.dir(<E) Turn + .dir(SE):
-    coord: [-3086,1216.453207298804]
-- +Activate Kuh Takkar:
-    notes: Doing this later in case SCW fail. Get fire arrow at camp if need (Need 7) If you have 6, you can spin with flameblade in between shots. Also use FDB if you are low on fire arrows (they help a bit)
-    var-change:
-      FireArrow: -7
+- _Warp::Shrine::KuhTakkar:
+    line-color: red
 
 - Shield Surf SCW
 - .dir(.N) Turn + .dir(N>>) Turn:
