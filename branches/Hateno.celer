@@ -15,7 +15,7 @@ Hateno:
 - +_Tod::Night:
     coord: [1824.75,1006.5110924863347]
     comment: For SCW + Kam Urog
-    notes: Get the potlid
+    notes: 4 apples from korok
 
 - +_Npc<1 Heart>:
     coord: [1841,997.9514703722871]
@@ -24,15 +24,16 @@ Hateno:
     comment: Get Shield inside
 
 - SCW to Lakna Rokee:
-    notes: Shield surf, EOD inside shrine. Don't use EOD until after eventide
+    notes: 2 apples, wb from tree. Shield surf, EOD inside shrine. Don't use EOD until after eventide
 - _Shrine::LaknaRokee:
     var-change:
       Weapons: 1
     comment: .v(Weapons)/8 Weapons
 
-- +Bomb Tree 2 Wood:
+- +Cut tree wb:
+    notes: 1 Wood
     var-change:
-      Wood: 2
+      Wood: 1
 - .dir(E) + .dir(E>) Turn
 - _Shrine::DowNaeh
 
@@ -45,11 +46,11 @@ Hateno:
 
 - .dir(S) + BLSS
 - _Shrine::TotoSah
-- +.dir(<<W) + .dir(NW)
+- +.dir(<N) Turn + .dir(<N) Turn
 - +_Material<4 Violets>:
     coord: [1634,1907.2630503902146]
 - _Shrine::HaDahamar
-- +.dir(S>) + .dir(W>) Turn
+- +.dir(<<W) + .dir(NW)
 - _Shrine::ReeDahee
 
 - Shield Surf SCW
@@ -80,7 +81,6 @@ Hateno:
     notes: Turn + wb saves 3-4 seconds over BLSS. I like BLSS because I tend to get stopped by waterfall
 - _Cook<1 Speed>:
     coord: [1574,3527.943105213035]
-- Fruit crates
 - _Shrine::ShaiUtoh
 
 
@@ -92,6 +92,10 @@ Hateno:
     coord: [2691,2964.6817917493354]
 - Walk orb:
     coord: [2636,2844.634252522189]
+- cut tree wb:
+    notes: 1 wood
+    var-change:
+      Wood: 1
 - .dir(.E):
     coord: [2369.37, 321.05, 2862.74]
 - EOD slam kill boko
@@ -144,6 +148,10 @@ Hateno:
 
 - BLSS to fragment 1:
     coord: [3796,3631.084778288412]
+- Cut tree wb:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
 - .dir(NW) to fragment 2:
     coord: [3532,3367.9805881489156]
 - .dir(SW) to fragment 3:

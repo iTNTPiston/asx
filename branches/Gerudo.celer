@@ -26,8 +26,8 @@ Gerudo:
     var-change:
       FireArrow: -3
 - BLSS
-- _Shrine::HawaKoth
-- _Snap::Quest<Small Guardian>
+- _Shrine::HawaKoth:
+    notes: snap guardian here if you haven't
 
 - _Warp::Shrine::ShadaNaw:
     line-color: yellow

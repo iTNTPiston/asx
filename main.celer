@@ -16,10 +16,10 @@ Route:
     - __use__ Hateno
     - __use__ Rito
     - __use__ Gerudo
+    - __use__ ZD
     - __use__ Eldin
     - __use__ Wasteland
     - __use__ Bloodmoon
     - __use__ Hebra
-    - __use__ ZD
     - __use__ Akkala
     - __use__ Central

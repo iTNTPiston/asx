@@ -1,7 +1,7 @@
 Plateau:
 - SOR Clip get TOD
-- _Equipment::Weapon<Tree Branch>:
-    coord: [-1038,1835.142221521215]
+- _Equipment::Weapon<Torch>:
+    coord: [-951.5054733597826,1875]
     var-change:
       Weapons: 1
     notes: For FDC off tower
@@ -30,22 +30,14 @@ Plateau:
     comment: .v(Rupee) Rupees
 - _Shrine::OmanAu
 
-- BLSS to old man place
-- _Equipment::Weapon<Axe + Torch>:
-    coord: [-802,2260.1228096701307]
-    var-change:
-      Weapons: 2
-    comment: .v(Weapons)/8 Weapons
-    notes: Also get the pot lid
+- BLSS + WB to stasis:
+    notes: 2 apples
 - _Shrine::OwaDaim:
     comment: Hammer inside
     var-change:
       Weapons: 1
 
-- Boulder + BLSS to cryo:
-    notes: 1 Wood from the blss tree
-    var-change:
-      Wood: 1
+- Boulder + BLSS to cryo
 - _Shrine::KehNamut
 
 - BLSS to ToT

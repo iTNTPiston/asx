@@ -1,8 +1,40 @@
 ZD:
-- _Warp::Shrine::SatoKoda:
-    line-color: "#00ff00"
+- _Warp::TechLab::Hateno:
+    line-color: yellow
+- .dir(N>) Turn + .dir(<E) (or ordinal)
+- _Shrine::TalohOah
+- Cut tree 1 wood:
+    var-change:
+      Wood: 1
+- +.dir(N) + .dir(N) midair:
+    coord: [4187,1377.9397836456137]
+- +.dir(N) + .dir(E) + .dir(<E):
+    movements: 
+    - to: [4179,1267.8962060207286]
+    - to: [4049,1275.8993753025388]
+    - to: [3948,1343.9263141979218]
+- _Shrine::JitanSami
+- BLSS to trident:
+    coord: [3229,-602.2594849481793]
+- __use__ CheckSlots
+- _Chest<Ceremonial Trident>
+- +.dir(S) Cardinal
+- 1 Lotus
+- _Shrine::NeezYohma
+- .dir(E):
+   coord: [3087,-458.2024378756023]
+- 1 Lotus
+- _Shrine::DagahKeek
+- Shield Surf SCW
+- .dir(N) + .dir(E) + .dir(W>)
+- Amiibo Activate
+- _Shrine::SatoKoda
+
+- Kill Guardians
+- _Snap::Quest<Skywatcher>
 
 - .dir(E>) Turn
+- 1 Lotus
 - _Shrine::MahEliya:
     notes: frozen meat activate .v(IceArrow) ice arrows left
     var-change:
@@ -25,7 +57,7 @@ ZD:
 - BLSS:
     notes: Remove boulder with mag
 - _Shrine::ShaiYota:
-    notes: If have more than 2 wood, can use campfire. It's very likely to rain here anyway in which case you can use a throwing spear chest
+    notes: open a throwing spear chest trigger
 - .dir(<E) + midairs
 - _Shrine::RuccoMaag
 
