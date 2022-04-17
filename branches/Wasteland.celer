@@ -28,7 +28,7 @@ Wasteland:
 - .dir(E>) DT
 - _Shrine::KayNoh
 - .dir(<W) Turn + .dir(<N) Turn
-- _Shrine::DaqoTah:
+- _Shrine::DakoTah:
     notes: If Mind Eye Shield is already broken here, you can get early radiant shield. Otherwise there is one more SCW before radiant shield
 - .dir(S>>) + .dir(SW)
 - _Shrine::DaqoChisay

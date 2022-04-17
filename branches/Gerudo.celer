@@ -16,7 +16,7 @@ Gerudo:
     movements:
     - to: [-3928,532.6861495118246]
     - to: [-4320,416.64019492558236]
-- _Shrine::KemaKossasa
+- _Shrine::KemaKosassa
 - 2 .dir(S) Cardinal Turn
 - _Shrine::KemaZoos
 - .dir(S>) out + .dir(S.) Turn

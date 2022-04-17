@@ -2,7 +2,7 @@ ZD:
 - _Warp::TechLab::Hateno:
     line-color: yellow
 - .dir(N>) Turn + .dir(<E) (or ordinal)
-- _Shrine::TalohOah
+- _Shrine::TahnoOah
 - Cut tree 1 wood:
     var-change:
       Wood: 1
