@@ -16,15 +16,14 @@ _route:
     - "(==) Wood: Get wood from every tree you cut + noted in the route. The route uses shield surf SCW heavily, so if you can't do that, you need to route in 80+ extra wood." 
     - "(==) Food: All 4 peppers from the beginning are routed for SCWs. 2 for backup. Don't eat peppers unless you have to"
     - "(==) Arrows: Fire arrows and ice arrows are routed EXACTLY. You will have 0 of them at the end. Fire arrow back up: 5 at Kuh Takkar, 10 between kema zoos and tho kayu. Ice arrow back up: 5 in hila rao. RNG back up: crates in castle"
-  - ASX Aristos 2.2:   
-    - __use__ Plateau
-    - __use__ Hateno
-    - __use__ Rito
-    - __use__ Gerudo
-    - __use__ ZD
-    - __use__ Eldin
-    - __use__ Wasteland
-    - __use__ Bloodmoon
-    - __use__ Hebra
-    - __use__ Akkala
-    - __use__ Central
+  - Plateau: __use__ Plateau
+  - Hateno: __use__ Hateno
+  - Rito:   __use__ Rito
+  - Gerudo: __use__ Gerudo
+  - ZD:     __use__ ZD
+  - Eldin:  __use__ Eldin
+  - Wasteland: __use__ Wasteland
+  - Bloodmoon: __use__ Bloodmoon
+  - Hebra: __use__ Hebra
+  - Akkala: __use__ Akkala
+  - Central: __use__ Central
