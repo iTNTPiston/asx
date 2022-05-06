@@ -1,15 +1,13 @@
 Bloodmoon:
 - _Warp::Shrine::KuhTakkar:
-    line-color: red
+    line-color: "#00ff00"
 
 - Shield Surf SCW
 - .dir(.N) Turn + .dir(N>>) Turn:
     coord: [-3196,1032.7717201206897]
     notes: Activate with kass diary
 - _Shrine::MijahRokee
-- .dir(E>) + .dir(S) + .dir(E)
-- _Shrine::MoggLatan
-- BLSS
+- .dir(<N) Turn
 - _Shrine::ShaeLoya
 - .dir(<<E) TS
 - Get Orbs:
@@ -18,7 +16,7 @@ Bloodmoon:
 - _Shrine::TohYahsa
 - Shield Surf SCW
 - .dir(N) + .dir(<N) midair
-- Frozen crab activate:
+- Frozen porgy activate:
     notes: .v(IceArrow) ice arrows left
     var-change:
       IceArrow: -1

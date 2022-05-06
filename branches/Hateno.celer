@@ -3,19 +3,12 @@ Hateno:
 - +_Npc::SheikaFemale<Impa>:
     line-color: red
     coord: [1772.71, 229.43, 984.31]
-- +_Equipment::Shield<Pot Lid>:
-    coord: [1803,1016.2649550485403]
-- +_Shop<10 Fire 10 Normal>:
-    coord: [1827,1039.9681091017883]
-    var-change:
-      Rupee: -200
-      FireArrow: 10
-      Arrow: 10
-    notes: Sell ruby. .v(FireArrow) fire arrows and .v(Arrow) normal arrows left
+# - +_Equipment::Shield<Pot Lid>:
+#     coord: [1803,1016.2649550485403]
 - +_Tod::Night:
     coord: [1824.75,1006.5110924863347]
     comment: For SCW + Kam Urog
-    notes: 4 apples from korok
+    notes: Can get 4 apples from korok
 
 - +_Npc<1 Heart>:
     coord: [1841,997.9514703722871]
@@ -24,7 +17,7 @@ Hateno:
     comment: Get Shield inside
 
 - SCW to Lakna Rokee:
-    notes: 2 apples, wb from tree. Shield surf, EOD inside shrine. Don't use EOD until after eventide
+    notes: wb from tree. Shield surf, EOD inside shrine.
 - _Shrine::LaknaRokee:
     var-change:
       Weapons: 1
@@ -59,16 +52,15 @@ Hateno:
     coord: [1277,1943.2773121583587]
     var-change:
       Weapons: 2
-    notes: Boko arms for plat SCWs. Also get the traveller bow if you can (for eventide)
+    notes: Boko arms for plat SCWs. Also get the traveller bow if you can (for eventide) and the shield
 - __use__ CheckSlots
 - __use__ CheckWoodAndArrows
 - _Shrine::SheeVenath
 - BLSS to dragon:
     coord: [1744,2982.6869418322767]
-    notes: FARM FAROSH AT NIGHT. 1 scale (first shot) + 5 horns. If after 5AM, farm for 5AM and make night after last shot. If before 5AM, make night twice for the first spawn
+    notes: FARM FAROSH AT NIGHT. 1 scale (first shot) + 5 horns. If after 5AM, farm for 5AM and make night after last shot. If before 5AM, make night twice for the first spawn. Bomb the grass to make fire. Use bomb arrows after using all normal arrows
     var-change:
-      FireArrow: -1
-      Arrow: -7
+      Arrow: -4
       Wood: -1
 - Drop down (WB if far)
 - _Shrine::ShodaSah:
@@ -86,7 +78,9 @@ Hateno:
 
 - .dir(E) super + .dir(N>) + .dir(N>) midair
 - _Shrine::QukahNata:
-    notes: No Pants
+    notes: Get Pants
+    var-change:
+      Rupee: 600
 
 - +.dir(<E) TS to blue hinox:
     coord: [2691,2964.6817917493354]
@@ -132,45 +126,40 @@ Hateno:
     notes: .v(Weapons)/8 Weapons 
 - BLSS to Muwo Jeem
 - _Shrine::MuwoJeem
-- +.dir(NE)
-- _Shrine::ChaasQeta
-- BLSS to Eventide:
-    notes: 1 Wood
-    var-change:
-      Wood: 1
-- _Shrine::KorguChideh:
-    var-change:
-      Weapons: -1
-      Rupee: 300
-      Arrow: -1
-    notes: Smuggle Axe and one bow. Get Gold Rupee
-    comment: .v(Rupee) Rupees
 
-- BLSS to fragment 1:
-    coord: [3796,3631.084778288412]
-- Cut tree wb:
-    notes: 1 Wood
-    var-change:
-      Wood: 1
-- .dir(NW) to fragment 2:
-    coord: [3532,3367.9805881489156]
-- .dir(SW) to fragment 3:
-    coord: [3388,3483.0261465749318]
-- .dir(N) to shrine
+- Buffered scw:
+    notes: If not doing this buffered scw, use the same order as old route
 - _Shrine::KahYah
 - .dir(S>>) + .dir(<E) Turn:
     coord: [3318,3527.043577624885]
-- _Shop<20 Shock>:
+- _Chest<5 Fire Arrows>:
+    coord: [2967.01, 101.38, 3501.98]
+    comment: Mag out from water
+    var-change:
+      FireArrow: 5
+- _Shop<All Arrows 3 Porgies>:
     coord: [2954,3492.029712016967]
     var-change:
-      Rupee: -280
+      Rupee: -600
+      Arrow: 15
     comment: .v(Rupee) Rupees left
-- Run to statue grab crab:
-    notes: Crab for scw. 4 Stam at statue
+    notes: Sell Pants
+- Run to statue:
+    notes: 4 Stam at statue
     coord: [2923,3448.012280967014]
 - .dir(<N)
-- Set .dir(E) skew:
-    notes: For Etsu Korima OOB
 - _Shrine::YahRin
+
+- BLSS to Eventide
+- _Shrine::KorguChideh:
+    var-change:
+      Weapons: -1
+      Arrow: -1
+    notes: Smuggle arrow only
+
+- +.dir(NE)
+- _Shrine::ChaasQeta:
+    notes: Clear ragdoll outside before warp
+
 - __use__ CheckSlots
 - __use__ CheckWoodAndArrows

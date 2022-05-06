@@ -1,10 +1,6 @@
 Gerudo:
-- _Warp::Shrine::AkhVaquot:
-    line-color: yellow
-- Bomb tree BLSS
-- _Shrine::KahOkeo
-- Climb + .dir(E) windbombs
-- _Shrine::TenaKosah
+- _Warp::Shrine::TenaKosah:
+    line-color: red
 - Moblin BTB:
     var-change:
       Arrow: -1
@@ -18,49 +14,62 @@ Gerudo:
     - to: [-4320,416.64019492558236]
 - _Shrine::KemaKosassa
 - 2 .dir(S) Cardinal Turn
+- BLSS
+- _Chest<5 Fire Arrows>:
+    coord: [-3122,1326.2120373100342]
+    var-change:
+      FireArrow: 5
+- _Shrine::KuhTakkar:
+    var-change:
+      FireArrow: -7
+- __use__ CheckWoodAndArrows
+- +Pepper SCW
+- +.dir(<E) Turn
+- +Campfire Activate:
+    var-change: 
+      Wood: -1
+    notes: .v(Wood) wood left
+- _Shrine::KihiroMoh
+- +Run to other side of hole to wb
+- +.dir(E) + .dir(W) + midairs
+- _Shrine::ShoDantu
+- Shield Surf SCW
+- .dir(S) LOOK UP
+- Campfire Activate:
+    var-change: 
+      Wood: -1
+    notes: .v(Wood) wood left
+- _Shrine::SasaKai
+- .dir(E>) DT
+- _Shrine::KayNoh
+- .dir(<W) Turn + .dir(<N) Turn
+- _Shrine::DakoTah:
+    notes: Technically you have enough durability on shield of minds eye before the radiant shield in Raqa Zunzo, but getting early radiant shield in this shrine is good
+- .dir(S>>) + .dir(SW)
+- _Shrine::DaqoChisay
+- +.dir(W.) to sand seal
+- Ring Chase:
+    movements:
+    - to: [-4051.50, 149.57, 2742.00]
+    - to: [-4201.40, 154.24, 2713.20]
+    - to: [-4290.06, 159.24, 2679.14]
+    - to: [-4402.44, 152.77, 2628.23]
+    - to: [-4491.50, 162.95, 2589.50]
+    - to: [-4560.00, 172.29, 2513.50]
+    - to: [-4586.50, 150.65, 2423.50]
+    - to: [-4595.00, 144.47, 2336.70]
+    - to: [-4682.00, 152.24, 2295.00]
+    - to: [-4756.10, 171.27, 2252.70]
+    - to: [-4855.12, 147.28, 2169.28]
+- _Shrine::TakamaShiri
 - _Shrine::KemaZoos
 - .dir(S>) out + .dir(S.) Turn
 - _Shrine::ThoKayu:
-    comment: Check .v(FireArrow) fire arrows
-    notes: Need 6 fire arrows for KT( 7 is fastest). Also need to save 1 for Goma Assagh
+    notes: No need fire arrow from now on
     var-change:
       FireArrow: -3
 - BLSS
 - _Shrine::HawaKoth:
     notes: snap guardian here if you haven't
 
-- _Warp::Shrine::ShadaNaw:
-    line-color: yellow
-    notes: Doing this part of hebra now so it's day time for shield surf minigame
-- _Shrine::GomaAsaagh:
-    notes: No claymore
-    var-change:
-      FireArrow: -1
-- Ring Chase:
-    movements:
-    - to: [-2792.10, 665.50, -2810.60]
-    - to: [-2747.40, 636.86, -2727.30]
-    - to: [-2575.10, 578.92, -2648.00]
-    - to: [-2478.80, 557.90, -2650.40]
-    - to: [-2401.80, 542.60, -2671.80]
-    - to: [-2380.60, 525.25, -2727.60]
-    - to: [-2399.80, 514.90, -2800.50]
-    - to: [-2424.80, 498.50, -2891.60]
-    - to: [-2429.21, 489.01, -2961.43]
-    - to: [-2379.90, 473.60, -3090.80]
-    - to: [-2300.00, 456.55, -3116.60]
-    - to: [-2239.00, 447.70, -3118.10]
-    - to: [-2195.09, 443.89, -3156.53]
-- _Shrine::KiahToza
-- Surf + .dir(W>>) Ordinal Turn:
-    coord: [-2245,-3151.7979582846247]
-- _Shrine::RokUwog
-- .dir(N) + .dir(<E) Turn Midairs:
-    coord: [-2386,-3399.7266494439036]
-- _Shrine::ShaGehma
-- .dir(E>) Turn + .dir(E) midairs
-- _Shrine::QazaTokki
-- .dir(S) up + BLSS
-- _Shrine::KetohWawai
-- __use__ CheckSlots
-- __use__ CheckWoodAndArrows
+

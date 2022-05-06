@@ -3,9 +3,11 @@ ZD:
     line-color: yellow
 - .dir(N>) Turn + .dir(<E) (or ordinal)
 - _Shrine::TahnoOah
-- Cut tree 1 wood:
-    var-change:
-      Wood: 1
+
+# - Cut tree wb:
+#     notes: 1 wood
+#     var-change:
+#       Wood: 1
 - +.dir(N) + .dir(N) midair:
     coord: [4187,1377.9397836456137]
 - +.dir(N) + .dir(E) + .dir(<E):
@@ -39,10 +41,11 @@ ZD:
     notes: frozen meat activate .v(IceArrow) ice arrows left
     var-change:
       IceArrow: -1
-- 1 Wood 2 Shock:
+- Cut tree wb:
     var-change:
-      Wood: 2
-    notes: need 2 wood here.
+      Wood: 1
+    notes: 1 wood
+- __use__ CheckWoodAndArrows
 - .dir(<E) TS
 - _Shrine::KenaiShakah
 - .dir(NE) to updraft + .dir(NE)
@@ -58,6 +61,6 @@ ZD:
     notes: Remove boulder with mag
 - _Shrine::ShaiYota:
     notes: open a throwing spear chest trigger
-- .dir(<E) + midairs
+- BLSS + .dir(W>) Turn
 - _Shrine::RuccoMaag
 
