@@ -31,14 +31,11 @@ Central:
 - _Equipment::Bow<Royal Guard Bow>:
     coord: [-333,-995.5355553803038]
 - _Equipment::Weapon<EOD>
-- 5 Arrows:
-    var-change:
-      Arrow: 5
 - WB to scantum
 - __use__ CheckWoodAndArrows
 - Blights:
     split-type: UserDefined
-    icon: ganon
+    icon: calamity
     coord: [-253.75,-1066.3135837163095]
     hide-icon-on-map: true
     notes: >
@@ -48,7 +45,7 @@ Central:
       Claymore for phase 1 Thunder + EOD throw in the end; Boomerang + Claymore for phase 2
 - Calamity:
     split-type: UserDefined
-    icon: ganon
+    icon: calamity
     coord: [-253.75,-1066.3135837163095]
     hide-icon-on-map: true
     notes: Parry + spin with claymore phase 1. Get claymore for stunlock

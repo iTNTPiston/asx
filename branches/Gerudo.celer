@@ -15,10 +15,6 @@ Gerudo:
 - _Shrine::KemaKosassa
 - 2 .dir(S) Cardinal Turn
 - BLSS
-- _Chest<5 Fire Arrows>:
-    coord: [-3122,1326.2120373100342]
-    var-change:
-      FireArrow: 5
 - _Shrine::KuhTakkar:
     var-change:
       FireArrow: -7

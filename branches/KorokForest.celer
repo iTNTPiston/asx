@@ -18,7 +18,7 @@ KorokForest:
 - BLSS to shrine:
     coord: [917,150.2713926522165]
 - _Shrine::DakaTuss
-- BTB to mezzalo:
+- BTB to deer:
     var-change:
       IceArrow: -1
     notes: .v(IceArrow) Ice Arrows left
@@ -37,12 +37,11 @@ KorokForest:
 - +Turn WBs or super
 - _Chest<Dinraal Scale>:
     coord: [-194,-1220.050312348731]
-- +WB above tower
-- _Chest<5 Fire Arrows>:
-    coord: [-247,-1199.535258260134]
-    var-change:
-      FireArrow: 5
-- +SQ
+- +WB
+- _Chest<5 Bomb Arrows>:
+    coord: [-291,-1130.0087155249767]
+
+- +Go down docks
 - 3 Lizal movement:
     notes: Head shot first one (near flameblade) and run pass him without getting noticed. Sneakstrike second with EOD from his back and left (to stay out of the third one's view). Head shot 3rd and sneakstrike him with EOD. Grab bow from the last lizalfos.
     var-change:
@@ -57,8 +56,7 @@ KorokForest:
 - Ancient Arrow:
     coord: [-216.22, 114.32, -1180.13]
 - WB to shrine
-- _Shrine::SaasKosah:
-    notes: Check 1 empty shield slot
+- _Shrine::SaasKosah
 
 - +Run up:
     coord: [-161.5,-1079.8605516003681]

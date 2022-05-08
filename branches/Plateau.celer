@@ -22,6 +22,10 @@ Plateau:
 
 - WB over barrier to mag:
     notes: Aim down so the torch doesn't go into the river if you let go of it
+- _Chest<Ruby>:
+    coord: [-674.25,1522.013469447692]
+    var-change:
+      Rupee: 210
 - _Shrine::OmanAu
 
 - BLSS + WB to stasis:
@@ -34,8 +38,6 @@ Plateau:
 - Boulder + BLSS to cryo
 - _Shrine::KehNamut
 
-- Drop down to 5 bomb arrows:
-    coord: [-1454.5,2027.1455888831388]
 - BLSS to ToT
 - Plateau:
     split-type: UserDefined
